@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import UserDetails from "@/views/UserDetails";
 import Summary from "@/views/Summary";
+import AgeError from "@/views/AgeError";
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,11 @@ const routes = [
     path: "/summary",
     name: "Summary",
     component: Summary,
+  },
+  {
+    path: "/age-error",
+    name: "AgeError",
+    component: AgeError,
   },
 ];
 

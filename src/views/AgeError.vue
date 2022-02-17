@@ -1,9 +1,16 @@
 <template>
-  <div></div>
+  <div>
+    <age-error-card />
+  </div>
 </template>
 
 <script>
-export default {};
+import AgeErrorCard from "@/components/AgeErrorCard";
+export default {
+  components: {
+    AgeErrorCard,
+  },
+};
 </script>
 
 <style scoped></style>
